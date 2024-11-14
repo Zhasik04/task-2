@@ -1,0 +1,15 @@
+function showMoreInfo(carModel) {
+    let info = '';
+    switch (carModel) {
+        case 'BMW M5 F90':
+            info = 'BMW M5 F90: спортивный седан с 4.4L V8 двигателем, мощностью 600 л.с., и разгоном 0-100 км/ч за 3.3 секунды.';
+            break;
+        case 'Mercedes S 63':
+            info = 'Mercedes S 63: представительский автомобиль с 4.0L V8 Biturbo двигателем, мощностью 603 л.с., и разгоном 0-100 км/ч за 3.5 секунды.';
+            break;
+        case 'Audi Q8':
+            info = 'Audi Q8: современный кроссовер с 3.0L V6 двигателем, мощностью 340 л.с., и разгоном 0-100 км/ч за 5.9 секунды.';
+            break;
+    }
+    alert(info);
+}
